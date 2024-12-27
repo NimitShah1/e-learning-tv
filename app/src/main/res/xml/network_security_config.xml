@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<network-security-config>
+    <domain-config cleartextTrafficPermitted="true">
+        <domain includeSubdomains="true">commondatastorage.googleapis.com</domain>
+        <domain includeSubdomains="true">commondatastorage.googleapis</domain>
+        <domain includeSubdomains="true">commondatastorage</domain>
+        <domain includeSubdomains="true">googleapis.com</domain>
+        <domain includeSubdomains="true">flutter.github.io</domain>
+        <domain includeSubdomains="true">flutter.github</domain>
+        <domain includeSubdomains="true">github.io</domain>
+    </domain-config>
+</network-security-config>
